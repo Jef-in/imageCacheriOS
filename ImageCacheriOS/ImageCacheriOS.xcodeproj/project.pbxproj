@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		493D76A323E1FD3D00DF5044 /* CachedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493D76A223E1FD3D00DF5044 /* CachedImageView.swift */; };
+		493D76A523E1FE1800DF5044 /* DiscardableImageCacheItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493D76A423E1FE1800DF5044 /* DiscardableImageCacheItem.swift */; };
 		495D549323E1D88400481CD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495D549223E1D88400481CD4 /* AppDelegate.swift */; };
 		495D549523E1D88400481CD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495D549423E1D88400481CD4 /* ViewController.swift */; };
 		495D549823E1D88400481CD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495D549623E1D88400481CD4 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		493D76A223E1FD3D00DF5044 /* CachedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedImageView.swift; sourceTree = "<group>"; };
+		493D76A423E1FE1800DF5044 /* DiscardableImageCacheItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscardableImageCacheItem.swift; sourceTree = "<group>"; };
 		495D548F23E1D88400481CD4 /* ImageCacheriOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCacheriOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		495D549223E1D88400481CD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		495D549423E1D88400481CD4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				495D549923E1D88600481CD4 /* Assets.xcassets */,
 				495D549B23E1D88600481CD4 /* LaunchScreen.storyboard */,
 				495D549E23E1D88600481CD4 /* Info.plist */,
+				493D76A223E1FD3D00DF5044 /* CachedImageView.swift */,
+				493D76A423E1FE1800DF5044 /* DiscardableImageCacheItem.swift */,
 			);
 			path = ImageCacheriOS;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				495D549523E1D88400481CD4 /* ViewController.swift in Sources */,
+				493D76A323E1FD3D00DF5044 /* CachedImageView.swift in Sources */,
+				493D76A523E1FE1800DF5044 /* DiscardableImageCacheItem.swift in Sources */,
 				495D549323E1D88400481CD4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
